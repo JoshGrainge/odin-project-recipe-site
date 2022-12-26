@@ -1,0 +1,26 @@
+*{
+    font-family: monospace;
+}
+
+html{
+    background-color: orange;
+}
+
+.recipe-div{
+    padding: 5px;
+    background-color: yellow;
+}
+
+ul{
+    list-style: square;
+}
+
+div > ul > li > a{
+    font-weight: bold;
+    color: red;
+}
+
+div > ul > li > a:hover{
+    font-weight: bold;
+    color: black;
+}
